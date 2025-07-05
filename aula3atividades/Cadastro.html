@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br"> <!-- Define que o site está em português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8"> <!-- Permite acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Deixa o site adaptável para celular -->
+    <title>Cadastro / Login</title> <!-- Título que aparece na aba do navegador -->
 </head>
 <body>
-    <section id="form>"
-        <h2> cadastro/login</h2>
-    
-        
-        <form action="./paginaagradecimento.html"method=get>
-            <p>Digite o seu email:</p>
-            <input type="email"required>
-    
-            <p>Digite sua senha:</p>
-            <input type="password"
-            minlength="8" required>
-    
-            <br><br>
-            <button>Entrar</button>
-    
-        </form>
-    </section>
 
+    <!-- Seção onde fica o formulário -->
+    <section id="form">
+
+        <!-- Título da página -->
+        <h2>Cadastro / Login</h2>
+
+        <!-- Início do formulário -->
+        <!-- 
+            action="./paginaagradecimento.html" → Quando o formulário for enviado, o site vai para a página "paginaagradecimento.html"
+            method="get" → Os dados vão ser enviados pela URL (bom para testes simples)
+        -->
+        <form action="./paginaagradecimento.html" method="get">
+            
+            <!-- Campo para o usuário digitar o email -->
+            <p>Digite o seu email:</p>
+            <input type="email" required> <!-- Campo do tipo email, obrigatório (required) -->
+
+            <!-- Campo para o usuário digitar a senha -->
+            <p>Digite sua senha:</p>
+            <input type="password" minlength="8" required> <!-- Campo do tipo senha, obrigatório, mínimo 8 letras -->
+
+            <!-- Caixa de texto grande para o usuário deixar um comentário -->
+            <p>Deixe seu comentário:</p>
+            <textarea rows="5" cols="40" placeholder="Digite seu comentário aqui..."></textarea>
+            <!-- 
+                rows → altura da caixa (quantidade de linhas)
+                cols → largura da caixa (quantidade de colunas)
+                placeholder → texto que aparece dentro da caixa antes de digitar
+            -->
+
+            <br><br> <!-- Quebra de linha (espaço antes do botão) -->
+
+            <!-- Botão que envia o formulário -->
+            <button type="submit">Entrar</button>
+        </form>
+        <!-- Fim do formulário -->
+
+    </section>
+    <!-- Fim da seção -->
 
 </body>
 </html>
-
