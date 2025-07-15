@@ -1,0 +1,64 @@
+
+ 
+body {
+    /*Muda a imagem do ponteiro do mouse*/
+    cursor: default;
+    font-family: "Rubik", sans-serif;
+    color:#333;
+    margin: 0;
+ 
+}
+
+.linksmenu a{
+color: #656565;
+text-decoration: none; /*Remove o traçado padrão*/
+margin-right: 30px;
+font-size: 12px;
+
+}
+
+.linksmenu a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.abertura{
+    background: #364ea3;
+background: radial-gradient(circle, rgba(54, 78, 163, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+padding: 200px 120px; 
+
+}
+.abertura{
+width: 400px
+font size 17px
+}
+
+.abertura h2{
+font size:28 px
+}
+
+.botaoprincipal{
+
+background-color: #364ea3;  
+color:ghostwhite;
+border:none;
+padding: 10px 50px;
+font-size: 16px;
+cursor: pointer;
+}
+.botaoprincipal:hover{
+background-color: #364ea3;
+transition: 0,3s;
+}
+.cardproduto{
+width: 350px;
+border: 1px solid#eee;
+box-shadow: 1px 2px 3px #000;
+margin:50px
+
+}
+
+.texto{
+    padding: 10px 30px;
+}
